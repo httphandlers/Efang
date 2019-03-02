@@ -1,0 +1,17 @@
+<form  >
+<view class="section">
+    <view class="section__title">手机号</view>
+    <input name="Mobile"  bindinput="commonInput" id="Mobile" placeholder="请填写手机号" />
+  </view>
+<view class="section">
+    <view class="section__title">姓名</view>
+    <input name="Name" bindinput="commonInput" id="Name" placeholder="请填写姓名" />
+  </view>
+  <view class="section">
+    <view class="section__title">快递号</view>
+    <input name="ExpressNo" bindinput="commonInput" id="ExpressNo"  placeholder="请填写快递号" />
+  </view>
+  <view class="btn-area">
+    <button  bindtap="onAddExpress" >提交</button>
+  </view>
+</form>

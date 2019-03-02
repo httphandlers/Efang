@@ -1,0 +1,12 @@
+<view class="section">
+    <view class="section__title">手机号</view>
+    <input name="Mobile" bindinput="commonInput" id="Mobile" placeholder="请填写手机号" />
+  </view>
+    <view class="btn-area">
+    <button form-type="button" bindtap="onQuery">查询快递单</button>
+  </view>
+<view class="section">
+<textarea >
+{{ExpressNo}}
+</textarea>
+  </view>

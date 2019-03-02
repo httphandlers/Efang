@@ -1,0 +1,16 @@
+<view class="section">
+    <navigator
+    url="/pages/QueryExpressNoByMobile/QueryExpressNoByMobile"
+    hover-class="navigator-hover"
+  >
+       <button form-type="button" >查询</button> 
+  </navigator>
+  </view>
+  <view class="section">
+    <navigator
+    url="/pages/AddExpress/importexpress"
+    hover-class="navigator-hover"
+  >
+    <button form-type="button" >添加</button> 
+  </navigator>
+  </view>
